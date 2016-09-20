@@ -11,7 +11,6 @@ public class FirstApplet extends Applet {
     String myGroup;
 
     public void init() {
-//        img = getImage(getCodeBase(), "H:\\lab0\\SimpleApplet\\Home\\FirstApplet\\cupofjava.gif");
         img = getImage(getCodeBase(), "ja.jpg");
         myGroup = getParameter("GROUP");
         setBackground(Color.darkGray);
